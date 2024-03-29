@@ -1,0 +1,84 @@
+{
+    "name": "General Teaching Hospital",
+    "location": "Inner City",
+    "units":
+        [
+            {
+                "name": "ward1",
+                "manager": "manager1",
+                "numberOfEmployees":
+                    {
+                        "doctors": 2,
+                        "nurses": 20,
+                        "alliedHealth": 4,
+                        "supportStaff": 3
+                    },
+                "numberOfBeds": 24       
+            },
+
+            {
+                "name": "ward2",
+                "manager": "manager2",
+                "numberOfEmployees":
+                    {
+                        "doctors": 3,
+                        "nurses": 19,
+                        "alliedHealth": 2,
+                        "supportStaff": 3
+                    },
+                "numberOfBeds": 20       
+            },
+
+            {
+                "name": "ward3",
+                "manager": "manager3",
+                "numberOfEmployees":
+                    {
+                        "doctors": 2,
+                        "nurses": 22,
+                        "alliedHealth": 3,
+                        "supportStaff": 2
+                    },
+                "numberOfBeds": 22       
+            },
+
+            {
+                "name": "ward4",
+                "manager": "manager4",
+                "numberOfEmployees":
+                    {
+                        "doctors": 2,
+                        "nurses": 18,
+                        "alliedHealth": 4,
+                        "supportStaff": 3
+                    },
+                "numberOfBeds": 18       
+            },
+
+            {
+                "name": "ward5",
+                "manager": "manager5",
+                "numberOfEmployees":
+                    {
+                        "doctors": 2,
+                        "nurses": 20,
+                        "alliedHealth": 4,
+                        "supportStaff": 3
+                    },
+                "numberOfBeds": 20       
+            },
+
+            {
+                "name": "ward6",
+                "manager": "manager6",
+                "numberOfEmployees":
+                    {
+                        "doctors": 3,
+                        "nurses": 19,
+                        "alliedHealth": 4,
+                        "supportStaff": 3
+                    },
+                "numberOfBeds": 18       
+            }
+        ]
+}
