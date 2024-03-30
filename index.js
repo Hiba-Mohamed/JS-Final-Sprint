@@ -3,7 +3,6 @@ fetch('./hospital.json')
     .then(response => response.json())
     .then(data => {
         console.log(data)
-        getTotallNumberOfUnits(data)
         displayData(data)
         })
     .catch(error => {
@@ -65,7 +64,6 @@ fetch('./hospital.json')
         <br/>
   `
 
-    // Iterate over each unit and add a row to the table
     unitsArray.forEach(unit => {
         hospitalInfoDiv.innerHTML += `
         <center>
