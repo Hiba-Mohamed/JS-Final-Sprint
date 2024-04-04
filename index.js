@@ -74,7 +74,6 @@ fetch('./hospital.json')
                 <td>Nurses: ${unit.numberOfEmployees.nurses}, </td>
                 <td>Allied Health: ${unit.numberOfEmployees.alliedHealth}, </td>
                 <td>Support Staff: ${unit.numberOfEmployees.supportStaff}, </td>
-
                 <td> Beds: ${unit.numberOfBeds}</td>
             </tr>
             <br/>
